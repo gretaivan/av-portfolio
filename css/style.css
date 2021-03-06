@@ -52,6 +52,11 @@ a:hover, a.nav-link.active{
     transition: all .2s;
     color: #747474 !important;
 }
+/* resolving the overlap with header */
+.block{
+    display: block;
+    height: 80px;
+}
 
 footer{
     font-size: 15px;
@@ -67,7 +72,7 @@ footer{
 }
 
 main{
-    margin-top: 23%;
+    /* margin-top: 23%; */
     /* margin-bottom: 0%; */
 }
 
